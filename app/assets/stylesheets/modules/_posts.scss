@@ -47,9 +47,37 @@ $contents-color: white;
   height: calc(100vh - 180px);
   width: 100%;
   &__form {
-    height: 50px;
+    height: 100%;
     width: 650px;
     margin: 0 auto;
+
+    &__post-A {
+      height: 50px;
+      width: 500px;
+      float: left;
+      margin-left: 20px;
+    }
+
+    &__send-A {
+      height: 50px;
+      width: 100px;
+      float: left;
+      margin-left: 10px;
+
+    }    
+
+    &__post-B {
+      height: 120px;
+      width: 500px;
+      margin: 0 auto;
+    }
+
+    &__send-B {
+      height: 50px;
+      width: 100px;
+      margin: 0 auto;
+
+    }
 
     &__text {
       height: 50px;
@@ -57,6 +85,7 @@ $contents-color: white;
       text-align: center;
       background-color: $contents-color;
       border: none;
+      margin-bottom: 10px;
 
     }
 
@@ -65,6 +94,7 @@ $contents-color: white;
       width: 100px;
       color: gray;
       background-color: $contents-color;
+      border: none;
       cursor: pointer;
 
     }
