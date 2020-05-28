@@ -5,12 +5,10 @@
   align-items: center;
   margin: 0 auto 10px;
   color: $contents-color;
-  font-size: 20px;
-  font-weight: bold;;
-  
 }
 .field-label {
-
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .field-input input {
@@ -36,8 +34,20 @@
 
 }
 
-.shared-links {
-  height: 60px;
+.shared-links-A {
+  height: calc(100vh - 401px);
+  width: 500px;
+  margin: 0 auto;
+}
+
+.shared-links-B {
+  height: calc(100vh - 471px);
+  width: 500px;
+  margin: 0 auto;
+}
+
+.shared-links-C {
+  height: calc(100vh - 330px);
   width: 500px;
   margin: 0 auto;
 }
