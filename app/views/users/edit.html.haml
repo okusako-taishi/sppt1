@@ -13,3 +13,7 @@
   .actions
     = f.submit "Update"
 .shared-links-C
+  = link_to "Log out", destroy_user_session_path, method: :delete, class: "links"
+  %br/
+  = link_to "Top page", :back, class: "links"
+  %br/

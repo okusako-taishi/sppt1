@@ -1,7 +1,8 @@
 .search
-  %form.search__form
-    .search__form__post-B
-      %input.search__form__text{type: "text", placeholder: "Please enter a title"}
-      %input.search__form__text{type: "text", placeholder: "Please paste the link"}
-    .search__form__send-B
-      %input.search__form__btn{type: "submit", value: "Enter"}
+  = form_for [@post] do |f|
+    .search__form
+      .search__form__post-B
+        = f.text_field :title, class: "search__form__text", placeholder: 'Please enter a title'
+        = f.text_field :link, class: "search__form__text",  placeholder: 'Please paste the link'
+      .search__form__send-B
+        = f.submit "Enter", class: "search__form__btn"
