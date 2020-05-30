@@ -1,4 +1,6 @@
 class PostsController < ApplicationController
+  # before_action :move_to_index, except: [:search]
+
   def index
     @posts = Post.all
   end
@@ -10,6 +12,10 @@ class PostsController < ApplicationController
   def create
     Post.create(post_params)
     redirect_to root_path
+  end
+
+  def search
+    @posts = Post.search(params[:keyword])
   end
 
 
