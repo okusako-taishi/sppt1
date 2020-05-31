@@ -97,13 +97,15 @@
 
     }
   
-  .contents-row {
-    height: 100%;
-    width: 650px;
-    padding-top: 60px;
-    margin-left: 20px;
-    color: $contents-color;
-  }
+    .contents-row {
+      height: 100%;
+      width: 650px;
+      padding-top: 60px;
+      margin-left: 20px;
+      .url-name {
+        color: $contents-color;
+      }
+    }
   }
 }
 input::placeholder {
