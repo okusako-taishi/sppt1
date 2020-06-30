@@ -16,11 +16,13 @@ class PostsController < ApplicationController
 
   def search
     @posts = Post.search(params[:keyword])
+    @like = Like.new
+
   end
 
 
   private
   def post_params
-    params.require(:post).permit(:title, :link,).merge(user_id: current_user.id)
+    params.require(:post).permit(:title, :link).merge(user_id: current_user.id)
   end
 end
