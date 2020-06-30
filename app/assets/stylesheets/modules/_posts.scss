@@ -1,0 +1,118 @@
+
+* {
+  box-sizing: border-box;
+  background-color: $default-color;
+}
+.menu {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+
+  &__user-name {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-left: 10px;
+    color: $contents-color;
+
+  }
+
+  &__edit {
+    display: flex;
+    line-height: 50px;
+    margin-right: 10px;
+    font-size: 25px;
+
+    &__user__btn {
+      margin-right: 10px;
+
+    }
+
+    &__post__btn {
+
+    }
+
+  }
+
+}
+
+.logo {
+  height: 130px;
+  width: 743px;
+  margin: 0 auto;
+}
+.search {
+  height: calc(100vh - 180px);
+  width: 100%;
+  &__form {
+    height: calc(100vh - 180px);
+    width: 650px;
+    margin: 0 auto;
+
+    &__post-A {
+      height: 50px;
+      width: 500px;
+      float: left;
+      margin-left: 20px;
+    }
+
+    &__send-A {
+      height: 50px;
+      width: 100px;
+      float: left;
+      margin-left: 10px;
+
+    }    
+
+    &__post-B {
+      height: 120px;
+      width: 500px;
+      margin: 0 auto;
+    }
+
+    &__send-B {
+      height: 50px;
+      width: 100px;
+      margin: 0 auto;
+
+    }
+
+    &__text {
+      height: 50px;
+      width: 500px;
+      text-align: center;
+      background-color: $contents-color;
+      border: none;
+      margin-bottom: 10px;
+
+    }
+
+    &__btn {
+      height: 50px;
+      width: 100px;
+      color: gray;
+      background-color: $contents-color;
+      border: none;
+      cursor: pointer;
+
+    }
+  
+    .contents-row {
+      height: 100%;
+      width: 650px;
+      padding-top: 60px;
+      margin-left: 20px;
+      .url-name {
+        color: $contents-color;
+      }
+    }
+  }
+}
+input::placeholder {
+  color: gray;
+}
+
+i {
+  color: $contents-color;
+  cursor: pointer;
+}

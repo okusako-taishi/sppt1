@@ -1,3 +1,12 @@
 Rails.application.routes.draw do
-  get 'posts', to: 'posts#index'
+  devise_for :users
+  root to: 'posts#index'
+  resources :users, only: [:edit, :update]
+  resources :posts do
+    collection do
+      get 'search'
+    end
+    resources :comments, only: :create
+    resources :likes, only: [:create, :destroy]
+  end
 end

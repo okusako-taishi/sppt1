@@ -1,0 +1,62 @@
+
+.field {
+  height: 60px;
+  width: 500px;
+  align-items: center;
+  margin: 0 auto 10px;
+  color: $contents-color;
+}
+.field-label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.field-input input {
+  height: 30px;
+  width: 400px;
+  background-color: $contents-color;
+  border: none;
+  padding-left: 10px;
+}
+
+.actions {
+  height: 60px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.actions input {
+  height: 50px;
+  width: 100px;
+  border: none;
+  background-color: $contents-color;
+  color: gray;
+  cursor: pointer;
+
+}
+
+.shared-links-A {
+  height: calc(100vh - 401px);
+  width: 500px;
+  margin: 0 auto;
+}
+
+.shared-links-B {
+  height: calc(100vh - 471px);
+  width: 500px;
+  margin: 0 auto;
+}
+
+.shared-links-C {
+  height: calc(100vh - 330px);
+  width: 500px;
+  margin: 0 auto;
+}
+
+.links {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: $contents-color;
+
+}

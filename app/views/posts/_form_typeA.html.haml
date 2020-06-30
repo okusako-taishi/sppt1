@@ -1,0 +1,9 @@
+.search
+  = form_with(url: search_posts_path, local: true, method: :get) do |f|
+    .search__form
+      .search__form__post-A
+        = f.text_field :keyword, class: "search__form__text", placeholder: "Enter what you want to search"
+      .search__form__send-A
+        = f.submit "Enter", class: "search__form__btn"
+        
+        
