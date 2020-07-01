@@ -53,5 +53,5 @@ production:
   username: sppt1
   password: <%= ENV['SPPT1_DATABASE_PASSWORD'] %>
   adapter: mysql2
-  encoding: unicode
+  encoding: utf8
   pool: 5
