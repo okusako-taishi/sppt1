@@ -44,6 +44,26 @@
 .search {
   height: calc(100vh - 180px);
   width: 100%;
+  &__side-header {
+    height: calc(100vh - 180px);
+    width: 395px;
+    &--table {
+
+      &--list {
+        color: $contents-color;
+        list-style: none;
+        font-size: 20px;
+        font-weight: bold;
+        a {
+          text-decoration: none;
+          color: $contents-color;
+          cursor: pointer;
+        }
+
+      }
+    }
+  }
+
   &__form {
     height: calc(100vh - 180px);
     width: 650px;
