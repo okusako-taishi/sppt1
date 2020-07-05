@@ -80,8 +80,12 @@ Things you may want to cover:
 ・使用技術(開発環境)
 ・課題や今後実装したい機能
 ・DB設計
-<img width="1440" alt="Find pro トップページ" src="https://user-images.githubusercontent.com/64964206/86537078-74a7b880-bf27-11ea-9a68-d59db7ab1461.png"> 
-
-
 ### トップページ
 - 調べたい投稿を検索する事ができる
+<img width="1440" alt="Find pro トップページ" src="https://user-images.githubusercontent.com/64964206/86537078-74a7b880-bf27-11ea-9a68-d59db7ab1461.png"> 
+
+<img width="1440" alt="Find pro ユーザー編集ページ" src="https://user-images.githubusercontent.com/64964206/86537415-e41ea780-bf29-11ea-8eaf-34b26cd4f2e8.png">
+
+<img width="1440" alt="Find pro 投稿ページ" src="https://user-images.githubusercontent.com/64964206/86537425-f39df080-bf29-11ea-8cae-0bcb22e2c5e7.png">
+
+<img width="1438" alt="Find pro ログインページ" src="https://user-images.githubusercontent.com/64964206/86537434-0284a300-bf2a-11ea-96f4-7bd758dba6bd.png">
