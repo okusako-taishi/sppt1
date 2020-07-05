@@ -1,17 +1,25 @@
 .wrapper
   = render "posts/main_header"
   = render "logo_type-show"
-  .search
-    .search__side-header
-      %ul.search__side-header--table
-        %li.search__side-header--table--list
-          ・Favorite post
-        %li.search__side-header--table--list
-          ・My post
-        %li.search__side-header--table--list
+  .my
+    .my__side-header
+      %ul.my__side-header--table
+        %li.my__side-header--table--list#favorite-post
+          = link_to "#" do
+            ・Favorite post
+        %li.my__side-header--table--list#my-post
+          = link_to "#" do
+            ・My post
+        %li.my__side-header--table--list
           = link_to edit_user_path(current_user) do
             ・Edit user information
-        %li.search__side-header--table--list
+        %li.my__side-header--table--list
           = link_to root_path do
             ・Top page
+    .my__main-post
+      - @liked_posts.each do |post1|
+        = render partial:"posts/post", locals: { post: post1}
+      - @user_posts.each do |post2|
+        = render partial:"posts/post", locals: { post: post2}
+    .my__main-post2
 

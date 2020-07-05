@@ -41,9 +41,11 @@
   width: 743px;
   margin: 0 auto;
 }
-.search {
+
+.my {
   height: calc(100vh - 180px);
   width: 100%;
+  display: flex;
   &__side-header {
     height: calc(100vh - 180px);
     width: 395px;
@@ -63,7 +65,19 @@
       }
     }
   }
+  &__main-post {
+    height: calc(100vh - 180px);
+    width: 650px;
+    .url-name {
+      color: $contents-color;
+    }
+  }
+}
 
+
+.search {
+  height: calc(100vh - 180px);
+  width: 100%;
   &__form {
     height: calc(100vh - 180px);
     width: 650px;
