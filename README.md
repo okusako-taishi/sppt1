@@ -23,7 +23,7 @@ Things you may want to cover:
 
 * ...
 
-# sppt1 DB設計
+# Find pro DB設計
 
 ## usersテーブル
 |Column|Type|Options|
@@ -71,15 +71,6 @@ Things you may want to cover:
 
 ### 概要
 - ユーザーが投稿したurlを
-・本番環境(デプロイ先　テストアカウント＆ID)
-・制作背景(意図)
-　⇒どんな課題や不便なことを解決するためにこのアプリを作ったのか。
-・DEMO(gifで動画や写真を貼って、ビューのイメージを掴んでもらいます)
-　⇒特に、デプロイがまだできていない場合はDEMOをつけることで見た目を企業側に伝えることができます。
-・工夫したポイン
-・使用技術(開発環境)
-・課題や今後実装したい機能
-・DB設計
 ### トップページ
 - 調べたい投稿を検索する事ができる
 <img width="1440" alt="Find pro トップページ" src="https://user-images.githubusercontent.com/64964206/86537078-74a7b880-bf27-11ea-9a68-d59db7ab1461.png"> 
@@ -92,4 +83,23 @@ Things you may want to cover:
 
 ### ユーザー編集ページ
 <img width="1440" alt="Find pro ユーザー編集ページ" src="https://user-images.githubusercontent.com/64964206/86537539-a5d5b800-bf2a-11ea-8052-d603ce0aaf92.png">
+
+## 本番環境
+### URL
+- https://sppt1.herokuapp.com/
+### テストアカウント
+- name: test2
+- email: test2@gmail.com
+- password: test2test2
+
+## 制作背景(意図)
+　
+・DEMO(gifで動画や写真を貼って、ビューのイメージを掴んでもらいます)
+　⇒特に、デプロイがまだできていない場合はDEMOをつけることで見た目を企業側に伝えることができます。
+・工夫したポイン
+・使用技術(開発環境)
+・課題や今後実装したい機能
+・DB設計
+
+
 
