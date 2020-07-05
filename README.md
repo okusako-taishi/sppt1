@@ -84,8 +84,8 @@ Things you may want to cover:
 - 調べたい投稿を検索する事ができる
 <img width="1440" alt="Find pro トップページ" src="https://user-images.githubusercontent.com/64964206/86537078-74a7b880-bf27-11ea-9a68-d59db7ab1461.png"> 
 
-<img width="1440" alt="Find pro ユーザー編集ページ" src="https://user-images.githubusercontent.com/64964206/86537415-e41ea780-bf29-11ea-8eaf-34b26cd4f2e8.png">
+<img width="1440" alt="Find pro ユーザー編集ページ" src="https://user-images.githubusercontent.com/64964206/86537539-a5d5b800-bf2a-11ea-8052-d603ce0aaf92.png">
 
 <img width="1440" alt="Find pro 投稿ページ" src="https://user-images.githubusercontent.com/64964206/86537425-f39df080-bf29-11ea-8cae-0bcb22e2c5e7.png">
 
-<img width="1438" alt="Find pro ログインページ" src="https://user-images.githubusercontent.com/64964206/86537434-0284a300-bf2a-11ea-96f4-7bd758dba6bd.png">
+<img width="1440" alt="Find pro ログインページ" src="https://user-images.githubusercontent.com/64964206/86537520-89398000-bf2a-11ea-9eda-08e2aad48073.png">
