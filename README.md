@@ -76,8 +76,10 @@ Things you may want to cover:
 　⇒どんな課題や不便なことを解決するためにこのアプリを作ったのか。
 ・DEMO(gifで動画や写真を貼って、ビューのイメージを掴んでもらいます)
 　⇒特に、デプロイがまだできていない場合はDEMOをつけることで見た目を企業側に伝えることができます。
-・工夫したポイント
+・工夫したポイン
 ・使用技術(開発環境)
 ・課題や今後実装したい機能
 ・DB設計
-<img width="1440" alt="Find pro トップページ" src="https://user-images.githubusercontent.com/64964206/86537078-74a7b880-bf27-11ea-9a68-d59db7ab1461.png">
+<img width="1440" alt="Find pro トップページ" src="https://user-images.githubusercontent.com/64964206/86537078-74a7b880-bf27-11ea-9a68-d59db7ab1461.png"> 
+### トップページ
+- 調べたい投稿を検索する事ができる
