@@ -4,7 +4,8 @@
 - プログラミングに関するエラーや、調べたい事を検索する事が出来る
 ### トップページ
 - 調べたい投稿を検索する事ができる
-<img width="1440" alt="Find pro トップページ" src="https://user-images.githubusercontent.com/64964206/86537078-74a7b880-bf27-11ea-9a68-d59db7ab1461.png"> 
+- 投稿が役に立つと思ったらいいねが出来る
+![Find pro トップページ動き変換](https://user-images.githubusercontent.com/64964206/86554288-2a0a5880-bf88-11ea-9c36-9a8b04461bec.gif)
 
 ### 投稿ページ
 <img width="1440" alt="Find pro 投稿ページ" src="https://user-images.githubusercontent.com/64964206/86537425-f39df080-bf29-11ea-8cae-0bcb22e2c5e7.png">
@@ -14,8 +15,6 @@
 
 ### ユーザー編集ページ
 <img width="1440" alt="Find pro ユーザー編集ページ" src="https://user-images.githubusercontent.com/64964206/86537539-a5d5b800-bf2a-11ea-8052-d603ce0aaf92.png">
-
-![Find pro トップページ動き変換](https://user-images.githubusercontent.com/64964206/86554288-2a0a5880-bf88-11ea-9c36-9a8b04461bec.gif)
 
 ## 本番環境
 ### URL
