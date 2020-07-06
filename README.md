@@ -8,6 +8,7 @@
 ![Find pro トップページ動き変換](https://user-images.githubusercontent.com/64964206/86554288-2a0a5880-bf88-11ea-9c36-9a8b04461bec.gif)
 
 ### 投稿ページ
+- タイトルをつけて自分の参考になった記事などのurlを投稿する事ができる
 <img width="1440" alt="Find pro 投稿ページ" src="https://user-images.githubusercontent.com/64964206/86537425-f39df080-bf29-11ea-8cae-0bcb22e2c5e7.png">
 
 ### ログインページ
