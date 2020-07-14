@@ -17,9 +17,10 @@
           = link_to root_path do
             ・Top page
     .my__main-post
-      - @liked_posts.each do |post1|
-        = render partial:"posts/post", locals: { post: post1}
-      - @user_posts.each do |post2|
-        = render partial:"posts/post", locals: { post: post2}
-    .my__main-post2
+      %div{ hidden: "" } 
+        - @liked_posts.each do |post1|
+          = render partial:"posts/post", locals: { post: post1}
+        - @user_posts.each do |post2|
+          = render partial:"posts/post_sub", locals: { post: post2}
+
 

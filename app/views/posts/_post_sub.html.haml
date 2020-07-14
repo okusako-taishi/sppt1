@@ -1,0 +1,10 @@
+.content-title--sub{id: "like-#{post.id}"}
+  = link_to "#{post.title}","#{post.link}", class: "url-name"
+  - if current_user.already_liked?(post)
+    = link_to post_likes_path(post,post.id), method: :delete, remote: true do
+      %i.fas.fa-heart
+        = post.liked_users.count
+  - else
+    = link_to post_likes_path(post,post.id), method: :post, remote: true do
+      %i.fas.fa-heart
+        = post.liked_users.count
