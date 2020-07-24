@@ -15,6 +15,7 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
     @user_posts = @user.posts
     @liked_posts = @user.liked_posts
+    
     # respond_to do |format|
     #   format.html 
     #   format.json { render json: @liked_posts }
