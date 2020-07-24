@@ -18,9 +18,26 @@
             ・Top page
     .my__main-post
       - @liked_posts.each do |post1|
-        = render partial:"posts/post", locals: { post: post1}
+        .content-title.favorite--post{id: "like-#{post1.id}"}
+          = link_to "#{post1.title}","#{post1.link}", class: "url-name"
+          - if current_user.already_liked?(post1)
+            = link_to post_likes_path(post1,post1.id), method: :delete, remote: true do
+              %i.fas.fa-heart
+                = post1.liked_users.count
+          - else
+            = link_to post_likes_path(post1,post1.id), method: :post, remote: true do
+              %i.fas.fa-heart
+                = post1.liked_users.count
       - @user_posts.each do |post2|
-        = render partial:"posts/post_sub", locals: { post: post2}
-      .my__main-post--real
+        .content-title--sub.my--post{id: "like-#{post2.id}"}
+          = link_to "#{post2.title}","#{post2.link}", class: "url-name"
+          - if current_user.already_liked?(post2)
+            = link_to post_likes_path(post2,post2.id), method: :delete, remote: true do
+              %i.fas.fa-heart
+                = post2.liked_users.count
+          - else
+            = link_to post_likes_path(post2,post2.id), method: :post, remote: true do
+              %i.fas.fa-heart
+                = post2.liked_users.count
 
 
