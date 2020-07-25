@@ -3,7 +3,7 @@
     = current_user.name
   .menu__edit
     .menu__edit__user__btn
-      = link_to edit_user_path(current_user) do
+      = link_to user_path(current_user) do
         %i.fas.fa-user-edit
     .menu__edit__post__btn
       = link_to new_post_path do

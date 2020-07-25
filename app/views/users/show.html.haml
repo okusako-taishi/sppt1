@@ -1,0 +1,43 @@
+.wrapper
+  = render "posts/main_header"
+  = render "logo_type-show"
+  .my
+    .my__side-header
+      %ul.my__side-header--table
+        %li.my__side-header--table--list#favorite-post
+          = link_to "#" do
+            ・Favorite post
+        %li.my__side-header--table--list#my-post
+          = link_to "#" do
+            ・My post
+        %li.my__side-header--table--list
+          = link_to edit_user_path(current_user) do
+            ・Edit user information
+        %li.my__side-header--table--list
+          = link_to root_path do
+            ・Top page
+    .my__main-post
+      - @liked_posts.each do |post1|
+        .content-title.favorite--post{id: "like-#{post1.id}"}
+          = link_to "#{post1.title}","#{post1.link}", class: "url-name"
+          - if current_user.already_liked?(post1)
+            = link_to post_likes_path(post1,post1.id), method: :delete, remote: true do
+              %i.fas.fa-heart
+                = post1.liked_users.count
+          - else
+            = link_to post_likes_path(post1,post1.id), method: :post, remote: true do
+              %i.fas.fa-heart
+                = post1.liked_users.count
+      - @user_posts.each do |post2|
+        .content-title--sub.my--post{id: "like-#{post2.id}"}
+          = link_to "#{post2.title}","#{post2.link}", class: "url-name"
+          - if current_user.already_liked?(post2)
+            = link_to post_likes_path(post2,post2.id), method: :delete, remote: true do
+              %i.fas.fa-heart
+                = post2.liked_users.count
+          - else
+            = link_to post_likes_path(post2,post2.id), method: :post, remote: true do
+              %i.fas.fa-heart
+                = post2.liked_users.count
+
+

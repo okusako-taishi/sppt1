@@ -41,6 +41,40 @@
   width: 743px;
   margin: 0 auto;
 }
+
+.my {
+  height: calc(100vh - 180px);
+  width: 100%;
+  display: flex;
+  &__side-header {
+    height: calc(100vh - 180px);
+    width: 395px;
+    &--table {
+
+      &--list {
+        color: $contents-color;
+        list-style: none;
+        font-size: 20px;
+        font-weight: bold;
+        a {
+          text-decoration: none;
+          color: $contents-color;
+          cursor: pointer;
+        }
+
+      }
+    }
+  }
+  &__main-post {
+    height: calc(100vh - 180px);
+    width: 650px;
+    .url-name {
+      color: $contents-color;
+    }
+  }
+}
+
+
 .search {
   height: calc(100vh - 180px);
   width: 100%;
